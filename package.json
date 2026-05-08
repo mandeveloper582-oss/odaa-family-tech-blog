@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start":"node server.js"
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-  
-},
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "autoprefixer": "^10.5.0",
     "baseline-browser-mapping": "^2.10.25",
@@ -37,12 +37,7 @@
     "update-browserslist-db": "^1.2.3",
     "vite": "^5.4.21"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "license": "ISC"
 }
-
